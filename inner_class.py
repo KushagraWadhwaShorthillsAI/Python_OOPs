@@ -4,6 +4,7 @@ class Student:
         self.name=name
         self.rollno=rollno  
         self.lap=self.Laptop()   #lap refers to the inner class Laptop, need not be mentioned as a parameter in the method definition
+        print("hello")
 
     def show(self):
         print(self.name,"(Roll No:",self.rollno,")", "uses the laptop of",self.lap.brand)  
@@ -31,3 +32,6 @@ s2.lap.cpu="i7"
 s2.lap.ram=16
 
 s2.show()
+s1.__init__('utkarsh',21)  #This will call the constructor of the class Student
+
+Student.__init__()  #This will call the constructor of the class Student
