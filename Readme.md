@@ -1,0 +1,1 @@
+This epic covers essential Python programming concepts and tools, including PIP for managing packages, OOPS principles like classes, objects, and inheritance, and advanced topics such as multiple inheritance and operator overloading.
